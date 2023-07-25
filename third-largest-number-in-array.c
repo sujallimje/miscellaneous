@@ -1,9 +1,11 @@
+//CODE TO FIND THIRD LARGEST NUMBER FROM GIVEN USER INPUT
+
 #include<stdio.h>
 
 int main(){
 
     int ele,temp;
-    printf("Number of elements to find third largest from:" );
+    printf("Enter number of elements :" );
     scanf("%d",&ele);
 
     if(ele<3){
